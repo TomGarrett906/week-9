@@ -1,15 +1,26 @@
 import React from "react";
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import "./App.css";
-import Dashboard from "./Components/Dashboard";
+import Container from 'react-bootstrap/Container';
 
-function App() {
-  return(
-  
-    <div className="App">
-      <h1>Car Dashboard</h1>
-      <Dashboard/>
-    </div>
-    
+
+
+import Dashboard from "./Components/Dashboard";
+import Users from "./Components/Users";
+import CarsPage from "./pages/CarsPage";
+
+function App(): JSX.Element {
+  return (
+    <Container>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Dashboard />}/>
+          <Route path='/users' element={<Users />} />
+          <Route path='/cars' element={<CarsPage children={undefined} />} />
+   
+        </Routes>
+      </BrowserRouter>
+    </Container>
   );
 }
 
