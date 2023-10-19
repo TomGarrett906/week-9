@@ -1,10 +1,10 @@
-import Body from "../Components/Users";
+// import Body from "../Components/Users";
 
-export default function CarsPage({ children }: { children: JSX.Element | JSX.Element[]}) {
+// export default function CarsPage({ children }: { children: JSX.Element | JSX.Element[]}) {
   
-  return (
-    <Body sidebar>
-      { children }
-    </Body>
-  )
-}
+//   return (
+//     <Body sidebar>
+//       { children }
+//     </Body>
+//   )
+// }

@@ -2,8 +2,8 @@ import React from "react";
 
 type CarCardProps = {
   car: {
-    make: string;
-    model: string;
+    name: string;
+   
     year: number;
   };
 };
@@ -11,8 +11,8 @@ type CarCardProps = {
 const CarCard: React.FC<CarCardProps> = ({ car }) => {
   return (
     <div id="carCard">
-      <h3>{car.make}</h3>
-      <h4>{car.model}</h4>
+      <h3>{car.name}</h3>
+     
       <p>{car.year}</p>
     </div>
   );

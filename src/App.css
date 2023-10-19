@@ -1,11 +1,12 @@
-
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #344b65;
-    
+    color: #ABD2FA;
+    background-color: #060d27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -14,38 +15,36 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
-    background-color: #1b1b1b;
+    background-color: #121212;
 }
 
-
 h1 {
-  
-    
-    padding: 5px;
-    margin-bottom: 20px;
-    
-    color: rgb(186, 211, 234);
-  }
-  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    text-align: center;
+    color: #7692FF;
+}
+
 h2 {
-    border: rgb(66, 66, 66) 3px double;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: #1B2CC1 3px double;
     border-radius: 5px;
     padding: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(186, 211, 234);
-    color: rgb(66, 66, 66);
-  }
+    margin-bottom: 10px;
+    background-color: #7692FF;
+    color: #3D518C;
+}
 
 #carCard {
-    border: rgb(186, 211, 234) 2px solid;
-    border-radius: 5px;
-    text-align: center;
-
+    justify-items: center;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    background-color: rgb(66, 66, 66);
-    color: rgb(186, 211, 234);
-  }
-
-  
+    border: #1B2CC1 2px solid;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #3D518C;
+    color: #7692FF
+}

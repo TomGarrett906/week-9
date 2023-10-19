@@ -3,8 +3,8 @@ import CarCard from "./CarCard";
 type CarListProps = {
   cars: {
     id: number;
-    make: string;
-    model: string;
+    name: string;
+    
     year: number;
   }[];
 };
